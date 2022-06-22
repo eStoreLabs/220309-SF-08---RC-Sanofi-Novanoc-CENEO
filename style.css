@@ -2887,7 +2887,7 @@ html {
 @media screen and (max-width: 600px) {
   #es-novanoc_0522_1.es-novanoc_0522_1 .es-cross__productsCnt {
     flex-wrap: wrap;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 }
