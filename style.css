@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Oswald:wght@200;300;400;500;700&display=swap");
 @font-face {
   font-family: "HelveticaNeueLTProBd";
-  src: url("./assets/HelveticaNeueLTProBd.otf") format("opentype");
+  src: url("/static/assets/HelveticaNeueLTProBd.otf") format("opentype");
 }
 @font-face {
   font-family: "HelveticaNeueLTProBdCn";
-  src: url("./assets/HelveticaNeueLTProBdCn.otf") format("opentype");
+  src: url("/static/assets/HelveticaNeueLTProBdCn.otf") format("opentype");
 }
 @font-face {
   font-family: "HelveticaNeueLTProLtCn";
-  src: url("./assets/HelveticaNeueLTPro-LtCn.otf") format("opentype");
+  src: url("/static/assets/HelveticaNeueLTPro-LtCn.otf") format("opentype");
 }
 @font-face {
   font-family: "Humanist521BT-Bold";
-  src: url("./assets/Humanist521BT-Bold.otf") format("opentype");
+  src: url("/static/assets/Humanist521BT-Bold.otf") format("opentype");
 }
 html,
 body {
@@ -375,7 +375,7 @@ html {
   font-size: 18px;
   line-height: 1.2;
   max-width: 960px;
-  min-width: 320px;
+  min-width: 280px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -2190,7 +2190,7 @@ html {
 }
 #es-novanoc_0522_1.es-novanoc_0522_1 .es-video__mainCnt {
   margin-top: 38.4px;
-  background: url("./img/kv_bg.png");
+  background: url("/static/img/kv_bg.png");
 }
 #es-novanoc_0522_1.es-novanoc_0522_1 .es-video__title {
   margin: 0;
@@ -2454,7 +2454,7 @@ html {
 #es-novanoc_0522_1.es-novanoc_0522_1 .es-table {
   position: relative;
   padding-bottom: 115.2px;
-  background: url("./img/kv_bg.png");
+  background: url("/static/img/kv_bg.png");
   background-position: bottom;
 }
 @media screen and (max-width: 500px) {
@@ -2870,7 +2870,7 @@ html {
 #es-novanoc_0522_1.es-novanoc_0522_1 .es-cross {
   position: relative;
   padding-bottom: 57.6px;
-  background: url("./img/kv_bg.png");
+  background: url("/static/img/kv_bg.png");
   background-position: bottom;
 }
 @media screen and (max-width: 600px) {
@@ -2887,7 +2887,7 @@ html {
 @media screen and (max-width: 600px) {
   #es-novanoc_0522_1.es-novanoc_0522_1 .es-cross__productsCnt {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 }
